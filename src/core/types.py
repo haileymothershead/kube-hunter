@@ -50,6 +50,9 @@ class Azure(KubernetesCluster):
     """Azure Cluster"""
     name = "Azure"
 
+class AWS(KubernetesCluster):
+    """AWS Cluster"""
+    name = "AWS"
 
 """ Categories """
 class InformationDisclosure(object):
